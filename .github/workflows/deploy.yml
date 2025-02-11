@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Se ejecuta cuando hay un push en main
+      - TestigCD  # Se ejecuta cuando hay un push en main
 
 jobs:
   deploy:
