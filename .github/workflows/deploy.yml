@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - TstigCD  # Se ejecuta cuando hay un push en TstigCD
+      - TestigCD  # Se ejecuta cuando hay un push en TstigCDdasda
 
 jobs:
   deploy:
