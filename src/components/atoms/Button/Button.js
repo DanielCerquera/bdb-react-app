@@ -7,4 +7,4 @@ const Button = ({ label, onClick, type = "primary" }) => {
 
 export default Button;
 
-// Cambio de información nueva
+// Cambio de información
