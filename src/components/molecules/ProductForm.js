@@ -31,8 +31,8 @@ const ProductForm = ({ onSubmit }) => {
 
     return (
         <div className="product-form">
-            <Input type="text" name="name" placeholder="Nombre producto 2" value={product.name} onChange={handleChange} />
-            <Input type="text" name="description" placeholder="Descripción" value={product.description} onChange={handleChange} />
+            <Input type="text" name="name" placeholder="Nombre producto 33" value={product.name} onChange={handleChange} />
+            <Input type="text" name="description" placeholder="Descripción 3" value={product.description} onChange={handleChange} />
             <Input type="number" name="price" placeholder="Precio" value={product.price} onChange={handleChange} />
 
             <ImageUploader onUpload={handleImageUpload} />
