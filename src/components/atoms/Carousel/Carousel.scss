@@ -1,0 +1,23 @@
+.carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+
+    &__image {
+        max-width: 100px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        border: 2px solid #ddd;
+    }
+
+    &__empty {
+        font-size: 14px;
+        color: #888;
+    }
+}
